@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.continer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./imag/background.png);
+    background-position: cover;
+    background-size: cover;
+    padding: 0 5%;
+
+}
+
+.navbar {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-div span {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo {
+    width: 60px;
+    cursor: pointer;
+}
+
+
+
+.menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* nav finsh */
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.leftthing {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.leftthing h1 {
+    font-size: 90px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.leftthing p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.leftthing button {
+    border: 0;
+    border-radius: 20px;
+    width: 180px;
+    padding: 12px 0;
+    margin-top: 20px;
+    outline: none;
+    background: #fff;
+
+
+}
+
+.leftthing button h5 {
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+
+}
+
+.rightthing {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 40px;
+
+
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    margin-right: 60px;
+    background-image: url(./imag/background.png);
+    background-position: cover;
+    background-size: cover;
+    color: white;
+    transition: transform .5s;
+    box-shadow: 0px 0px 20px inset rgba(255, 255, 255, 0.464) ;
+}
+.card h1{
+    font-size: 20px;
+}
+
+.card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) ,url(./imag/pic-1.png);
+
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(./imag/pic-2.png);
+
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(./imag/pic-3.png);
+
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) ,url(./imag/pic-4.png);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+
+
+}
